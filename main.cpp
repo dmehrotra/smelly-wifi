@@ -23,7 +23,7 @@ string get_header_from_raw(string header, const RawPDU& rawpdu){
     }
 
     
-    return payL;
+    return content;
 }
 
 int main() {
